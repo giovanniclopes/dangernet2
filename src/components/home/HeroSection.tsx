@@ -15,7 +15,7 @@ export default function HeroSection() {
             Shiled is driven by a mission - to build a better advertising
             industry. We help brands improve the effectiveness.
           </p>
-          <button className="px-8 py-4 font-medium text-lg bg-product-green text-product-blue rounded-xl transition-all hover:opacity-85">
+          <button className="px-8 py-4 font-medium text-lg bg-product-green text-product-blue rounded-xl transition-all hover:brightness-90">
             Request Demo
           </button>
         </div>

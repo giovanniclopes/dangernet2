@@ -79,7 +79,7 @@ export function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-product-gold-400 focus:text-product-gold-800 mbl:text-lg"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-product-green-500 focus:text-product-green-700 mbl:text-lg"
               onClick={handleLinkClick}
             >
               {item.name}
@@ -91,8 +91,8 @@ export function Header() {
             <button
               className={
                 fix
-                  ? "py-3 px-7 bg-transparent text-white font-bold border border-product-gold rounded hover:border-product-green"
-                  : "py-3 px-7 bg-transparent text-white font-bold border border-product-green rounded hover:opacity-80"
+                  ? "py-3 px-7 bg-transparent text-white font-bold border border-product-gold rounded hover:border-product-green focus:bg-product-green"
+                  : "py-3 px-7 bg-transparent text-white font-bold border border-product-green rounded hover:opacity-80 focus:bg-product-green"
               }
             >
               Contact
