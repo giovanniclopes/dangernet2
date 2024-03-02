@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-product-white text-product-black;
+  @apply bg-product-white text-product-black font-roboto;
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

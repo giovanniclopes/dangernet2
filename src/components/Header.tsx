@@ -1,14 +1,13 @@
-// Importe useState e useEffect do React
 import { useState, useEffect } from "react";
-import logo from "../assets/svg/sono-e-conforto-logo-svg-s.svg";
+import logo from "../assets/svg/logo-dangernet-text.svg";
 import { List, X } from "phosphor-react";
 
 const navigation = [
   { name: "Home", href: "#" },
-  { name: "Limpeza", href: "#cleaning" },
-  { name: "Impermeabilização", href: "#waterproofing" },
-  { name: "Sobre", href: "#about" },
-  { name: "FAQ", href: "#FAQ" },
+  { name: "Solutions", href: "/solutions" },
+  { name: "Industries", href: "/industries" },
+  { name: "Resources", href: "/resources" },
+  { name: "About", href: "/about" },
 ];
 
 export function Header() {
@@ -40,15 +39,15 @@ export function Header() {
     <nav
       className={
         fix
-          ? "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap px-16 bg-product-darkBlue text-white border-b-2 border-product-gold transition-all mbl:px-5 mbl:p-4 "
-          : "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap p-6 px-16 bg-transparent text-product-gold-100 border-none transition-all mbl:px-3 mbl:p-4"
+          ? "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap px-16 bg-product-blue text-white transition-all mbl:px-5 mbl:p-4 "
+          : "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap p-6 px-16 bg-transparent text-white transition-all mbl:px-3 mbl:p-4"
       }
     >
-      <div className="flex items-center flex-shrink-0 text-product-purple-500 mr-6 lg:mr-72">
+      <div className="flex items-center flex-shrink-0 text-product-green mr-6 lg:mr-72">
         <a href="/">
           <img
             src={logo}
-            className="w-28 mr-2"
+            className="w-48 mr-2"
             alt="Logo"
             draggable="false"
             loading="lazy"
@@ -64,9 +63,9 @@ export function Header() {
           className="flex items-center px-3 py-2 rounded text-gray-500 hover:text-gray-400"
         >
           {isOpen ? (
-            <X size={28} weight="bold" color="#dfb749" />
+            <X size={28} weight="bold" color="#8EE930" />
           ) : (
-            <List size={28} weight="bold" color="#dfb749" />
+            <List size={28} weight="bold" color="#8EE930" />
           )}
         </button>
       </div>
@@ -88,15 +87,15 @@ export function Header() {
           ))}
         </div>
         <div>
-          <a href="https://wa.me/5511998687964" target="_blank">
+          <a href="https://wa.me/" target="_blank">
             <button
               className={
                 fix
-                  ? "py-3 px-7 bg-product-gold text-product-darkBlue font-bold border border-product-gold rounded hover:opacity-80"
-                  : "py-3 px-7 bg-transparent text-white font-extrabold border border-white rounded hover:opacity-80"
+                  ? "py-3 px-7 bg-transparent text-white font-bold border border-product-gold rounded hover:border-product-green"
+                  : "py-3 px-7 bg-transparent text-white font-bold border border-product-green rounded hover:opacity-80"
               }
             >
-              Contato
+              Contact
             </button>
           </a>
         </div>
