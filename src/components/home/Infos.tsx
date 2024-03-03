@@ -15,7 +15,7 @@ function InfoBlock(props: InfoBlockProps) {
         </div>
       </div>
       <div className="flex flex-col items-start justify-center gap-2">
-        <div className="font-extrabold text-3xl text-blue-500">{props.title}</div>
+        <div className="font-black text-3xl text-blue-500">{props.title}</div>
         <div className="text-md">{props.description}</div>
       </div>
     </div>

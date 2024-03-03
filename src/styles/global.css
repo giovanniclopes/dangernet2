@@ -8,3 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.gap-x-reduced > :not(template) ~ :not(template) {
+  --tw-translate-x: calc(-0rem);
+  margin-left: var(--tw-translate-x);
+  margin-right: var(--tw-translate-x);
+}

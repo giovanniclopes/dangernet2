@@ -11,7 +11,7 @@ export default function AboutSection() {
           <div className="flex flex-row items-center justify-center gap-2 font-medium text-blue-500">
             <span>About Us</span> <hr className="border border-blue-500 w-5" />
           </div>
-          <h2 className="font-sourceSerif font-extrabold text-6xl text-product-blue-800">
+          <h2 className="font-playfair font-black text-6xl text-product-blue-800">
             The Mobile-First Risk Intelligence Platform
           </h2>
           <p className="w-4/5">

@@ -7,8 +7,13 @@ export default {
         mbl: { max: "630px" }, // mbl == mobile
         // => @media (max-width: 630px) { ... }
       },
+      backgroundImage: {
+        ourExpertiseBG: "url(../src/assets/svg/ourExpertise-BG.svg)",
+        glassmorphismBG:
+          "background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0))",
+      },
       fontFamily: {
-        sourceSerif: "Source Serif",
+        playfair: "playfair Display",
         oswald: "Oswald, sans-serif",
         roboto: "Roboto, sans-serif",
       },
