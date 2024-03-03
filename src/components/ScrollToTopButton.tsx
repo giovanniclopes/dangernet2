@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import { CaretUp } from "phosphor-react";
+import { useEffect, useState } from "react";
 
 function ScrollToTopButton() {
   const [showButton, setShowButton] = useState(false);
