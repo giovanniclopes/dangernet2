@@ -8,7 +8,7 @@ export default {
         // => @media (max-width: 630px) { ... }
       },
       backgroundImage: {
-        ourExpertiseBG: "url(../src/assets/svg/ourExpertise-BG.svg)",
+        ourExpertiseBG: "url(../../src/assets/svg/ourExpertise-BG.svg)",
         glassmorphismBG:
           "background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0))",
       },
