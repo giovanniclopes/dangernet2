@@ -2,11 +2,11 @@ import IllustrationHerosection from "../../assets/svg/illustration-herosection.s
 
 export default function HeroSection() {
   return (
-    <section className="py-52 bg-gradient-to-tr from-product-blue-500 to-product-blue-800">
+    <section className="py-52 bg-gradient-to-tr from-product-blue-500 to-product-blue-800 mbl:py-36">
       <div className="flex flex-row items-center justify-center mx-10 gap-10 mbl:flex-col">
         <div className="w-full flex flex-col items-start justify-center gap-4 text-white">
           <span className="text-sm">Cyber Attack Protection Service</span>
-          <h1 className="font-playfair font-black text-7xl">
+          <h1 className="font-playfair font-black text-7xl mbl:text-5xl">
             We Protect the World from{" "}
             <span className="text-product-green">Fraud</span> &{" "}
             <span className="text-product-green">Abuse</span>
@@ -19,7 +19,7 @@ export default function HeroSection() {
             Request Demo
           </button>
         </div>
-        <div className="w-[60%] flex items-end justify-end">
+        <div className="w-[60%] flex items-end justify-end mbl:hidden">
           <img src={IllustrationHerosection} alt="" />
         </div>
       </div>

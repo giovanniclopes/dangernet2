@@ -4,7 +4,7 @@ import logo from "../assets/svg/logo-dangernet.svg";
 export default function Footer() {
   return (
     <footer className="p-6 bg-gradient-to-tr from-gray-200 to-white pb-12">
-      <div className="grid grid-cols-2 items-center justify-center">
+      <div className="grid grid-cols-2 items-center justify-center mbl:grid-cols-1 mbl:gap-y-16">
         <div className="flex flex-col items-start justify-center gap-3">
           <div className="mb-6">
             <img
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="grid grid-cols-3 items-center justify-center gap-12">
+          <div className="grid grid-cols-3 items-center justify-center gap-12 mbl:items-start">
             <div>
               <h4 className="font-semibold text-lg mb-3">Solutions</h4>
               <ul className="flex flex-col gap-2 list-none cursor-pointer">

@@ -40,14 +40,14 @@ export function Header() {
       className={
         fix
           ? "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap px-16 bg-product-blue text-white transition-all mbl:px-5 mbl:p-4 "
-          : "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap p-6 px-16 bg-transparent text-white transition-all mbl:px-3 mbl:p-4"
+          : "z-50 top-0 fixed w-full flex items-center justify-between flex-wrap px-16 bg-product-blue/95 text-white transition-all mbl:px-3 mbl:p-4"
       }
     >
       <div className="flex items-center flex-shrink-0 text-product-green mr-6 lg:mr-72">
         <a href="/">
           <img
             src={logo}
-            className="w-48 mr-2"
+            className="w-48 mr-2 mbl:w-32"
             alt="Logo"
             draggable="false"
             loading="lazy"
@@ -70,7 +70,7 @@ export function Header() {
         </button>
       </div>
       <div
-        className={`p-6 w-full flex flex-grow lg:flex lg:items-center lg:w-auto mbl:bg-product-darkBlue-600 mbl:flex-col mbl:gap-5 mbl:rounded-lg mbl:border-t-2 mbl:border-product-gold ${
+        className={`p-6 w-full flex flex-grow lg:flex lg:items-center lg:w-auto mbl:flex-col mbl:gap-5 mbl:rounded-lg ${
           isOpen ? "block" : "hidden"
         }`}
       >

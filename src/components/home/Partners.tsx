@@ -12,18 +12,18 @@ export default function Partners() {
             <span>Our Partners</span>{" "}
             <hr className="border border-blue-500 w-5" />
           </div>
-          <h2 className="w-4/6 font-playfair font-black text-6xl text-product-blue-800 text-center">
+          <h2 className="w-4/6 font-playfair font-black text-6xl text-product-blue-800 text-center mbl:w-full mbl:text-4xl">
             We Worked with Several Big Companies
           </h2>
         </div>
-        <div className="w-full grid grid-cols-4 items-center justify-center justify-items-center">
-          <img className="w-2/4" src={YoutubeLogo} alt="" />
+        <div className="w-full grid grid-cols-4 items-center justify-center justify-items-center mbl:grid-cols-2 mbl:gap-y-5">
+          <img className="w-2/4 mbl:w-4/5" src={YoutubeLogo} alt="" />
 
-          <img className="w-2/4" src={FacebookLogo} alt="" />
+          <img className="w-2/4 mbl:w-4/5" src={FacebookLogo} alt="" />
 
-          <img className="w-2/4" src={UpworkLogo} alt="" />
+          <img className="w-2/4 mbl:w-4/5" src={UpworkLogo} alt="" />
 
-          <img className="w-2/4" src={InstagramLogo} alt="" />
+          <img className="w-2/4 mbl:w-4/5" src={InstagramLogo} alt="" />
         </div>
       </div>
     </section>

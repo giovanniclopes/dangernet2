@@ -24,8 +24,8 @@ function InfoBlock(props: InfoBlockProps) {
 
 export default function Infos() {
   return (
-    <section className="my-24">
-      <div className="flex flex-row items-center justify-center gap-24">
+    <section className="my-24 mbl:my-16">
+      <div className="flex flex-row items-center justify-center gap-24 mbl:flex-col">
         <InfoBlock icon={<Star size={20} weight="fill" color="#B9FA02" />} title={"4.9/5"} description={"Ratings"} />
 
         <InfoBlock icon={<User size={20} weight="fill" color="#B9FA02" />} title={"1M+"} description={"Customers"} />
